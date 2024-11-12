@@ -37,6 +37,11 @@ int main() {
     while(i<5){
         cout<< i+1 <<"° Elemento di V "<<V[i]<<endl;
         cout<< i+1 <<"° Elemento di W "<<W[i]<<endl;
+        i++;
+    }
+
+    i = 0;
+    while(i<10){
         cout<< i+1 <<"° Elemento di X "<<X[i]<<endl;
         cout<< i+1 <<"° Elemento di Y "<<Y[i]<<endl;
         i++;
